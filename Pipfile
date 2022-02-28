@@ -12,6 +12,8 @@ pip = "*"
 cryptography = "*"
 pymysql = "*"
 whitenoise = "*"
+django-heroku = "*"
+gunicorn = "*"
 
 [dev-packages]
 
