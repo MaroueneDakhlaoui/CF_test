@@ -1,4 +1,4 @@
 web: gunicorn coffee.wsgi
-release: python manage.py makemigrations --input
-release: python manage.py collectstatic --noinput
-release: python manage.py migrate --noinput
+release: python coffee/manage.py makemigrations --input
+release: python coffee/manage.py collectstatic --noinput
+release: python coffee/manage.py migrate --noinput

@@ -19,3 +19,4 @@ gunicorn = "*"
 
 [requires]
 python_version = "3.10"
+export SECRET_KEY='django-insecure-w_2o#7cyy!ib44(xk(d$5$qkjm&g-m&-#1zq@48807vc$037d_'
