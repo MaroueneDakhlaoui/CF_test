@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coffeeproject.farms',
+    'coffeeproject.farms.apps.FarmsConfig',
     'rest_framework',
     'rest_framework.authtoken',
 ]
